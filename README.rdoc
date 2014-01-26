@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Derick Olson
+HW1 (install and set up rails, git, heroku, and first app)
+CIS196
 
-Things you may want to cover:
+Heroku: http://pure-wildwood-1481.herokuapp.com/
 
-* Ruby version
+Comments:
+Initially had trouble updating the gemfile and using Heroku. After going to Hunter's office hours and doing some guided Googling, we got everything up and running. 
 
-* System dependencies
+The only issue afterwards was that I tested the Heroku site before creating a home page and a changing the routes.rb file. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+One last thing, when running <tt>heroku logs</tt>, I still get the following error message <tt>ActionController::RoutingError (No route matches [GET] "/assets/application-96a552b03ca0e7ebcbfc44b89ca097a6.css")</tt> and do not know what it means
