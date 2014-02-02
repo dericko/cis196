@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cis196</title>
+  <title>Derick Olson</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
+
+<div id="header">
+	<div class="navbar">
+		<ul class="nav">
+			<div id="plain-links">
+				<li>
+					<a href="https://plus.google.com/?gpsrc=ogpy0&tab=wX" id="google-plus">+You</a>
+				</li>
+				<li>
+					<a href="https://mail.google.com/mail/?tab=wm" id="gmail">Gmail</a>
+				</li>
+				<li>
+					<a href="https://www.google.com/imghp?hl=en&tab=wi&ei=g9TtUo29GoH4kQfZnYGADw&ved=0CAQQqi4oAg" id="images">Images</a>
+				</li>
+			</div>
+			<div id="nav-buttons">
+				<li>
+					<div id="apps-button">
+						<a href="http://www.google.com/intl/en/options/" id="apps-link">Apps</a>
+					</div>
+				</li>
+				<li>
+					<a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/" id="sign-in-button">Sign In</a>
+				</li>
+			</div>
+		</ul>
+	</div>
+</div>
+
+
 <%= yield %>
+
+<div class="footer">
+	<ul>
+		<!--Why is there a gap on the left side?-->
+		<div id="footer-left">
+			<li>
+				<a href="https://www.google.com/intl/en/ads/?fg=1" id="advertising"></a>Advertising</li>
+			<li>
+				<a href="https://www.google.com/services/?fg=1" id="business">Business</a>
+			</li>
+			<li>
+				<a href="https://www.google.com/intl/en/about.html?fg=1" id="about">About</a>
+			</li>
+		</div>
+		<div id="footer-right">
+			<li id="terms"><a href="https://www.google.com/intl/en/policies/?fg=1"></a>Privacy & Terms</li>
+			<li id="settings"><a href="https://www.google.com/preferences?hl=en"></a>Settings</li>
+		</div>
+	</ul>
+</div>
 
 </body>
 </html>
