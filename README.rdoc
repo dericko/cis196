@@ -1,12 +1,34 @@
 == README
 
 Derick Olson
-HW1 (install and set up rails, git, heroku, and first app)
 CIS196
 
 Heroku: http://pure-wildwood-1481.herokuapp.com/
 
-Comments:
+
+
+
+HW2 (Recreated Google homepage with HTML and CSS):
+
+I had trouble recreating the Apps button (top-left corner), so I screenshotted the image, with and without hover, and used that for the button. I think it looks alright, but the alignment might be off.
+
+After I changed the production.rb file in order for CSS to show up on heroku, I get an error that says "Precompiling assets failed. Push rejected, failed to compile Ruby app". I have done a lot of Googling and have not been able to fix it (reinstalled bundles, tried to compile locally then push...). I am currently at a loss for what to do, but will ask in class.
+
+3 Project Ideas:
+1) MyCapsule
+A more interactive journal, that uses time to let users interact with themselves. 
+--> Create a capsule: Ask yourself anything, congratulate yourself on something great, remind yourself to appreciate this moment, tell yourself not to make that mistake again, tell yourself a joke, tell yourself that everything will be okay, inspire yourself. Every day we have the chance to recreate ourselves. Record what you're thinking, what you value, or what you hope for in the future. Set a time or a situation to open it, and submit. You can check your inbox to see your waiting and ready messages. Options to share, to come.
+
+2) MyStory
+I was thinking of making a sort of visual life-timeline (extended resume?) for my personal website and think that an app to help others make one would be cool. It's very much a graphic design project as well as an app, as much of it relies on simple and visually pleasing avatars and images (thinking of a style like "WhereHaveAllTheWildlingsGone.com" by Nigel Evan Dennis). 
+--> Visual resumes are popping up all over the place. MyStory takes this idea and runs with it, letting users create a visual map of their life's path. A profile page will be scroll along visual caricatures/simplified images of various life events (birth, moves during childhood, schools, graduations, jobs). Infographic charts simplify various skills, traveling, interests, etc). 
+
+3) The Next Big Thing
+While trying to think of a third app, I thought that a place where people could openly share great ideas would be awesome.
+--> A place for ideas, big and small, to get past the abstract stage and get adopted by others. Users can post, browse, share, and collaborate in an open environment for sharing application ideas. The goal is to match ideas with willing collaborators. Each app will have a short profile. Parts include possible names, description of features, resources needed, related apps, a way for users to add to My Projects.
+
+
+HW1 (install and set up rails, git, heroku, and first app):
 Initially had trouble updating the gemfile and using Heroku. After going to Hunter's office hours and doing some guided Googling, we got everything up and running. 
 
 The only issue afterwards was that I tested the Heroku site before creating a home page and a changing the routes.rb file. 
