@@ -12,7 +12,9 @@ HW2 (Recreated Google homepage with HTML and CSS):
 
 I had trouble recreating the Apps button (top-left corner), so I screenshotted the image, with and without hover, and used that for the button. I think it looks alright, but the alignment might be off.
 
-After I changed the production.rb file in order for CSS to show up on heroku, I get an error that says "Precompiling assets failed. Push rejected, failed to compile Ruby app". I have done a lot of Googling and have not been able to fix it (reinstalled bundles, tried to compile locally then push...). I am currently at a loss for what to do, but will ask in class.
+I also was unable recreate the dropdown apps using aria-label tags as I do not really understand how they work. Instead, I just linked the App button to the "View More Apps" page. 
+
+After I changed the production.rb file in order for CSS to show up on heroku, I get an error that says "Precompiling assets failed. Push rejected, failed to compile Ruby app". UPDATE--found out that it was just a typo in my CSS file. Everything is up and running now!
 
 3 Project Ideas:
 1) MyCapsule
