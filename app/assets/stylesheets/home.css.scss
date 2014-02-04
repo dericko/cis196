@@ -28,7 +28,12 @@
 
 #search {
 	width: 572px;
-	height: 30px;
+	height: 27px;
+}
+
+#search:hover {
+	padding: 2px;
+	border: 1px solid gray;
 }
 
 button {
